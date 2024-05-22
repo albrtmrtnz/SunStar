@@ -1,0 +1,85 @@
+body {
+  background-color: #05530c;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-left: 0px;
+  margin-top: 30px;
+  margin-right: 0px;
+}
+
+#mainNavbar .nav-link {
+  color: whitesmoke;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #c18413;
+}
+
+#mainNavbar .navbar-brand {
+  padding-left: 50px;
+  color: #c18413;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  justify-content: center;
+  color: #c18413;
+  font-weight: 100;
+}
+
+.mainHeader {
+  color: #c18413;
+  margin: 30px;
+  font-family: "roboto slab", sans-serif;
+  font-size: 75px;
+  margin-top: 50px;
+}
+
+.info {
+  margin-top: 100px;
+  color: #c18413;
+}
+
+.blurb {
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+  color: whitesmoke;
+}
+
+.gallery {
+  color: #c18413;
+  margin-top: 50px;
+}
+
+.images {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.brightness {
+  background-color: #05530c;
+}
+
+.brightness img:hover {
+  opacity: .80;
+}
+
+.navbar.scrolled {
+  background: #0c631395;
+  transition: background 500ms;
+}
+
+@media (max-width: 992px) {
+  .images img {
+    margin-bottom: 50px;
+  }
+}
+
+footer {
+  color: whitesmoke;
+  background-color: #0c631395;
+}
